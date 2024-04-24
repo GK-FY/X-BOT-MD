@@ -9,15 +9,15 @@ if (fs.existsSync('config.env')) {
 
 const API = "https://api-aswin-sparky.koyeb.app";
 const HANDLERS = process.env.HANDLER || "^";
-const SESSION_ID = process.env.SESSION_ID || "";
-const SUDO = process.env.SUDO || '917012984396';
+const SESSION_ID = process.env.SESSION_ID || "X-BOT-MD:YankeeModule";
+const SUDO = process.env.SUDO || '254798453846';
 const AUTO_STATUS_VIEW = process.env.AUTO_STATUS_VIEW || "true";
 const ALWAYS_ONLINE = process.env.ALWAYS_ONLINE || "true";
-const BOT_INFO = process.env.BOT_INFO || "X-BOT-MD;ASWIN SPARKY;https://i.imgur.com/r3GZeiX.jpeg";
-const URL = process.env.URL || "https://www.instagram.com/imspxxky";
-const AUDIO_DATA = process.env.AUDIO_DATA || "X BOT MD;ASWIN SPARKY;https://i.imgur.com/fVCRCYG.jpeg";
-const STICKER_DATA = process.env.STICKER_DATA || "X BOT MD;ASWIN SPARKY";
-const WORK_TYPE = process.env.WORK_TYPE || 'public';
+const BOT_INFO = process.env.BOT_INFO || "GK;FY;https://telegra.ph/file/1343c53e5d3a68d58c434.jpg";
+const URL = process.env.URL || "https://www.instagram.com/shank.fy";
+const AUDIO_DATA = process.env.AUDIO_DATA || "GK;FY;https://telegra.ph/file/1343c53e5d3a68d58c434.jpg";
+const STICKER_DATA = process.env.STICKER_DATA || "GK;FY";
+const WORK_TYPE = process.env.WORK_TYPE || 'private';
 const DATABASE_URL = process.env.DATABASE_URL || "./lib/database.db";
 const HEROKU_APP_NAME = process.env.HEROKU_APP_NAME || "";
 const HEROKU_API_KEY = process.env.HEROKU_API_KEY || "";
